@@ -1,11 +1,23 @@
 .container {
   min-height: 100vh;
-  padding: 0 10%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 100px 10% 40px;
+  display: flex;
+  flex-flow: column nowrap;
   align-items: center;
-  align-content: center;
+  justify-content: flex-end;
   gap: 40px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.outlineLogo {
+  max-width: 350px;
 }
 
 .outlineLogo path,
@@ -18,5 +30,21 @@
 @keyframes logo-dash {
   to {
     stroke-dashoffset: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr min-content;
+  }
+
+  .linksContainer {
+    grid-column: span 2;
+  }
+
+  .outlineLogo {
+    max-width: none;
   }
 }

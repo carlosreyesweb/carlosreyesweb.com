@@ -11,6 +11,10 @@
   --secondary-01: #7f65ef;
   --secondary-02: #dbe1e6;
   --secondary-03: #2b2b2b;
+  /* font weights */
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
   scroll-behavior: smooth;
 }
 

@@ -1,0 +1,29 @@
+.button {
+  display: block;
+  max-width: max-content;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 50px;
+  border-radius: 10px;
+  font-weight: var(--medium);
+}
+
+.main {
+  color: var(--primary-01);
+  background-color: var(--primary-02);
+}
+
+.main-regular {
+  color: var(--primary-02);
+  box-shadow: 0 0 0 2px var(--primary-02) inset;
+}
+
+.secondary {
+  color: var(--secondary-02);
+  background-color: var(--secondary-01);
+}
+
+.secondary-regular {
+  color: var(--secondary-01);
+  box-shadow: 0 0 0 2px var(--secondary-01) inset;
+}
