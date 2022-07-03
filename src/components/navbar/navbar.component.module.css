@@ -23,3 +23,54 @@
   padding: 0;
   margin: 0;
 }
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  min-height: calc(100vh - 105px);
+  display: none;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+  border-radius: 20px;
+  margin: 0;
+  list-style: none;
+}
+
+.shown {
+  display: flex;
+}
+
+.container,
+.menu {
+  background-color: var(--primary-01);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: var(--primary-02);
+}
+
+@media screen and (min-width: 768px) {
+  .menuButton {
+    display: none;
+  }
+
+  .menu {
+    position: static;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: right;
+    padding: 0;
+    min-height: min-content;
+  }
+}
