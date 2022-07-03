@@ -8,6 +8,12 @@
   gap: 40px;
 }
 
+.leftBox {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 40px;
+}
+
 .linksContainer {
   display: flex;
   flex-flow: row wrap;
@@ -37,11 +43,13 @@
   .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr min-content;
+    grid-template-rows: 1fr;
   }
 
   .linksContainer {
     grid-column: span 2;
+    justify-content: left;
+    padding: 0;
   }
 
   .outlineLogo {

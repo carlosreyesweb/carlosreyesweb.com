@@ -9,21 +9,23 @@ export default function Header(props: HeaderProps) {
   return (
     <header className={styles.container}>
       <Navbar />
-      <HeroTitle>Diseña tu presencia web conmigo.</HeroTitle>
+      <div className={styles.leftBox}>
+        <HeroTitle>Diseña tu presencia web conmigo.</HeroTitle>
+        <nav className={styles.linksContainer}>
+          <ButtonLink variant="main" href="#contact">
+            Contacto
+          </ButtonLink>
+          <ButtonLink
+            variant="secondary-regular"
+            href="https://behance.net/carlosreyesweb"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Portfolio
+          </ButtonLink>
+        </nav>
+      </div>
       <OutlineLogo className={styles.outlineLogo} />
-      <nav className={styles.linksContainer}>
-        <ButtonLink variant="main" href="#contact">
-          Contacto
-        </ButtonLink>
-        <ButtonLink
-          variant="main-regular"
-          href="https://behance.net/carlosreyesweb"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Portfolio
-        </ButtonLink>
-      </nav>
     </header>
   )
 }
