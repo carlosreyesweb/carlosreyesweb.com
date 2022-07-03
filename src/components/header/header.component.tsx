@@ -1,6 +1,5 @@
 import OutlineLogo from '../../assets/outline-logo.svg?component'
 import ButtonLink from '../button-link/button-link.component'
-import HeroTitle from '../hero-title/hero-title.component'
 import Navbar from '../navbar/navbar.component'
 import styles from './header.component.module.css'
 
@@ -10,7 +9,7 @@ export default function Header(props: HeaderProps) {
     <header className={styles.container}>
       <Navbar />
       <div className={styles.leftBox}>
-        <HeroTitle>Diseña tu presencia web conmigo.</HeroTitle>
+        <h1 className={styles.title}>Diseña tu presencia web conmigo.</h1>
         <nav className={styles.linksContainer}>
           <ButtonLink variant="main" href="#contact">
             Contacto
