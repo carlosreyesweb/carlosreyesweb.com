@@ -8,6 +8,15 @@
   gap: 40px;
 }
 
-.outlineLogo {
-  display: block;
+.outlineLogo path,
+.outlineLogo polygon {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: logo-dash 3s linear infinite alternate;
+}
+
+@keyframes logo-dash {
+  to {
+    stroke-dashoffset: 0;
+  }
 }
