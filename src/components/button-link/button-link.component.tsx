@@ -1,5 +1,5 @@
 import { AnchorHTMLAttributes } from 'react'
-import { ButtonVariant } from '../types/button-variant.type'
+import { ButtonVariant } from '../../types/button-variant.type'
 import styles from './button-link.component.module.css'
 
 interface ButtonLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
