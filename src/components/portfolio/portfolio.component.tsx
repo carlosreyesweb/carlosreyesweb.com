@@ -14,6 +14,7 @@ export default function Portfolio(props: PortfolioProps) {
   }
   return (
     <motion.section
+      id="portfolio"
       variants={sectionVariants}
       initial="hidden"
       whileInView="visible"

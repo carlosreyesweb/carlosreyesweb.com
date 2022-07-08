@@ -37,10 +37,8 @@ export default function Navbar(props: NavbarProps) {
         </li>
         <li className={styles.menuItem}>
           <a
-            href="https://behance.net/carlosreyesweb"
+            href="#portfolio"
             className={styles.link}
-            target="_blank"
-            rel="noopener noreferrer"
             onClick={closeMenuOnLinkClick}
           >
             Portfolio
