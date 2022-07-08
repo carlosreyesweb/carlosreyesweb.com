@@ -9,13 +9,13 @@ export default function Header(props: HeaderProps) {
     <header className={styles.container}>
       <Navbar />
       <div className={styles.leftBox}>
-        <h1 className={styles.title}>Diseña tu presencia web conmigo.</h1>
+        <h1 className={styles.title}>Design your web presence with me.</h1>
         <nav className={styles.linksContainer}>
           <ButtonLink variant="main" href="#contact">
-            Contacto
+            Contact
           </ButtonLink>
           <ButtonLink
-            variant="secondary-regular"
+            variant="main-regular"
             href="https://behance.net/carlosreyesweb"
             target="_blank"
             rel="noopener noreferrer"

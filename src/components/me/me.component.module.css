@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 500px));
+  gap: 0 10%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.title {
+  color: var(--primary-02);
+}
+
+.picture {
+  display: block;
+  width: 100%;
+  border-radius: 40px;
+}

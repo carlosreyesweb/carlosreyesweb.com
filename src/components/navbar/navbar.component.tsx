@@ -23,7 +23,7 @@ export default function Navbar(props: NavbarProps) {
       <ul ref={menuRef} className={styles.menu}>
         <li className={styles.menuItem}>
           <a href="#me" className={styles.link} onClick={closeMenuOnLinkClick}>
-            Quién soy
+            Who I am
           </a>
         </li>
         <li className={styles.menuItem}>
@@ -32,7 +32,7 @@ export default function Navbar(props: NavbarProps) {
             className={styles.link}
             onClick={closeMenuOnLinkClick}
           >
-            Servicios
+            Services
           </a>
         </li>
         <li className={styles.menuItem}>
@@ -52,7 +52,7 @@ export default function Navbar(props: NavbarProps) {
             className={styles.link}
             onClick={closeMenuOnLinkClick}
           >
-            Contacto
+            Contact
           </a>
         </li>
       </ul>
