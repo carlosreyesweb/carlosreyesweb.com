@@ -5,17 +5,26 @@ import styles from './me.component.module.css'
 
 interface MeProps {}
 export default function Me(props: MeProps) {
+  const profilePicVariants = {
+    hidden: {
+      opacity: 0,
+      y: 20,
+    },
+    visible: {
+      opacity: 1,
+      y: 0,
+    },
+  }
+
   return (
     <section id="me" className={styles.container}>
       <motion.img
         src={profilePic}
         alt="Carlos Reyes Picture"
         className={styles.picture}
-        initial={{ opacity: 0, y: 120 }}
-        whileInView={{
-          opacity: 1,
-          y: 0,
-        }}
+        variants={profilePicVariants}
+        initial="hidden"
+        whileInView="visible"
       />
       <article className={styles.article}>
         <h2 className={styles.title}>Who am I?</h2>

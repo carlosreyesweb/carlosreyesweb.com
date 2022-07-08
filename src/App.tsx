@@ -1,5 +1,6 @@
 import Header from './components/header/header.component'
 import Me from './components/me/me.component'
+import Services from './components/services/services.component'
 
 export default function App() {
   return (
@@ -7,6 +8,7 @@ export default function App() {
       <Header />
       <main>
         <Me />
+        <Services />
       </main>
     </>
   )
