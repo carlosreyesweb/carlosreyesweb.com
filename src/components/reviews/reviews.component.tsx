@@ -17,7 +17,7 @@ export default function Reviews(props: ReviewsProps) {
   }
   return (
     <section id="reviews" className={styles.container}>
-      <h2 className={styles.title}>What coworkers thought about my job?</h2>
+      <h2 className={styles.title}>What coworkers think about my job?</h2>
       <section className={styles.reviewsContainer}>
         <motion.article
           variants={reviewVariants}
