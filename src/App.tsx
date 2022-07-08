@@ -1,6 +1,7 @@
 import Header from './components/header/header.component'
 import Me from './components/me/me.component'
 import Portfolio from './components/portfolio/portfolio.component'
+import Reviews from './components/reviews/reviews.component'
 import Services from './components/services/services.component'
 
 export default function App() {
@@ -11,6 +12,7 @@ export default function App() {
         <Me />
         <Services />
         <Portfolio />
+        <Reviews />
       </main>
     </>
   )
