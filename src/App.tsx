@@ -1,3 +1,4 @@
+import Contact from './components/contact/contact.component'
 import Header from './components/header/header.component'
 import Me from './components/me/me.component'
 import Portfolio from './components/portfolio/portfolio.component'
@@ -13,6 +14,7 @@ export default function App() {
         <Services />
         <Portfolio />
         <Reviews />
+        <Contact />
       </main>
     </>
   )
