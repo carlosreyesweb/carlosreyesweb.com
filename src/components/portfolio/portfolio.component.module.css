@@ -11,3 +11,11 @@
 .button {
   margin: 0 auto;
 }
+
+.portfolioPlatform {
+  text-align: center;
+}
+
+.portfolioPlatformLogo {
+  width: calc(60px + 1rem);
+}

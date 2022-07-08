@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import behanceLogo from '../../assets/behance-logo.svg'
 import ButtonLink from '../button-link/button-link.component'
 import styles from './portfolio.component.module.css'
 
@@ -33,6 +34,21 @@ export default function Portfolio(props: PortfolioProps) {
       >
         Watch portfolio
       </ButtonLink>
+      <p className={styles.portfolioPlatform}>
+        Powered by{' '}
+        <a
+          href="https://behance.net"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.portfolioPlatformLink}
+        >
+          <img
+            src={behanceLogo}
+            alt="Behance"
+            className={styles.portfolioPlatformLogo}
+          />
+        </a>
+      </p>
     </motion.section>
   )
 }
