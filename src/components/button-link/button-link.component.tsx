@@ -8,10 +8,14 @@ interface ButtonLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
 export default function ButtonLink({
   variant,
   children,
+  className,
   ...props
 }: ButtonLinkProps) {
   return (
-    <a className={`${styles.button} ${styles[variant]}`} {...props}>
+    <a
+      className={`${styles.button} ${styles[variant]} ${className}`}
+      {...props}
+    >
       {children}
     </a>
   )
