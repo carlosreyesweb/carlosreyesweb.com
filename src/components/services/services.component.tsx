@@ -17,7 +17,7 @@ export default function Services(props: ServicesProps) {
     },
   }
   return (
-    <section className={styles.container}>
+    <section id="services" className={styles.container}>
       <h2 className={styles.title}>What can I do?</h2>
       <section className={styles.servicesContainer}>
         <motion.article
