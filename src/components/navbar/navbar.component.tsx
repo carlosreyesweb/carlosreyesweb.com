@@ -46,6 +46,15 @@ export default function Navbar(props: NavbarProps) {
         </li>
         <li className={styles.menuItem}>
           <a
+            href="#reviews"
+            className={styles.link}
+            onClick={closeMenuOnLinkClick}
+          >
+            Reviews
+          </a>
+        </li>
+        <li className={styles.menuItem}>
+          <a
             href="#contact"
             className={styles.link}
             onClick={closeMenuOnLinkClick}
