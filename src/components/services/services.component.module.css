@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
   justify-content: center;
-  gap: 40px 10%;
+  gap: 40px 100px;
 }
 
 .serviceIcon {
