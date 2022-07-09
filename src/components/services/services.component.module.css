@@ -1,0 +1,25 @@
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.title {
+  text-align: center;
+}
+
+.servicesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+  justify-content: center;
+  gap: 40px 100px;
+}
+
+.serviceIcon {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.serviceName {
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+  gap: 0 100px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.picture {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
