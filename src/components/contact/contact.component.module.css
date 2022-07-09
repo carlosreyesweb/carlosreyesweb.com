@@ -7,3 +7,15 @@
 .content {
   text-align: center;
 }
+
+.linksContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.linkIcon {
+  width: 1.7em;
+  vertical-align: bottom;
+}
