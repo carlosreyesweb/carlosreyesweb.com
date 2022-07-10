@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import gmailIcon from '../../assets/gmail-icon.svg'
 import linkedinIcon from '../../assets/linkedin-icon.svg'
-import whatsappIcon from '../../assets/whatsapp-icon.svg'
 import ButtonLink from '../button-link/button-link.component'
 import styles from './contact.component.module.css'
 
@@ -34,15 +33,6 @@ export default function Contact(props: ContactProps) {
           rel="noopener noreferrer"
         >
           <img src={gmailIcon} alt="Gmail" className={styles.linkIcon} /> E-mail
-        </ButtonLink>
-        <ButtonLink
-          variant="main-regular"
-          href="https://wa.me/+584129380768"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={whatsappIcon} alt="WhatsApp" className={styles.linkIcon} />{' '}
-          WhatsApp
         </ButtonLink>
         <ButtonLink
           variant="main-regular"
